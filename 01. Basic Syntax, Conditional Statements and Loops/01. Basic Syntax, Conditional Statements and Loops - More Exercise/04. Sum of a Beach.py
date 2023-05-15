@@ -14,3 +14,4 @@ if "sun" in input_string_lower:
     count_sun = input_string_lower.count('sun')
 counter = count_sand + count_water + count_fish + count_sun
 print(counter)
+
