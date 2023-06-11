@@ -15,5 +15,3 @@ for i in range(len(cards_list)):
 print(f"Team A - {team_a_count}; Team B - {team_b_count}")
 if game_was_terminated:
     print("Game was terminated")
-
-
