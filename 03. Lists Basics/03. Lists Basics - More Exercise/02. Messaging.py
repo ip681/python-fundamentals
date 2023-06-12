@@ -16,7 +16,6 @@ for symbol in range(len(numbers_list)):
         current_index -= message_indices_count
     current_symbol = input_string[current_index]
     input_string = input_string[:current_index] + \
-                   input_string[current_index + 1::]
+        input_string[current_index + 1::]
     final_message += current_symbol
 print(final_message)
-
