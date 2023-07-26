@@ -2,6 +2,13 @@ starting_electrons = int(input())
 number_of_electrons = starting_electrons
 position = 0
 electrons_list = []
+
+# TODO: Text
+
+# NORMAL COMMENT: Text
+
+# BUG: TEXT
+
 while number_of_electrons > 0:
     position += 1
     current_electrons = 2 * (position ** 2)
